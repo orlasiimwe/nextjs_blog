@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import styles from '../styles/style.module.css';
+import styles from '../styles/style.module.css'
+import { useForm } from "react-hook-form"
 
 function Index() {
   const [allBlogs, setAllBlogs] = useState([])
@@ -38,6 +39,11 @@ function Index() {
       alert('Fill in all fields')
 
     }
+    setBlog({
+      ...blog,
+      title:'',
+      body: '',
+    });
   }
 
   const deleteBlog = (evt) => {
