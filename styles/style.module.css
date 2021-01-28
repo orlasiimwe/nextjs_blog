@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body,
+html{
+  font-family: 'Yusei Magic', sans-serif;
+  height:100%;
+}
+.blogcontainer{
+  padding-left: 5%;
+  padding-top: 3%;
+
+}
+.heading{
+  color:rebeccapurple;
+  text-align: center;
+}
+.intro{
+  margin-bottom: 5%;
+  text-align: center;
+  
+}
+.introheading{
+  color:green;
+  text-transform: uppercase;
+  text-decoration: underline;
+}

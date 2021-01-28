@@ -120,3 +120,21 @@
     flex-direction: column;
   }
 }
+.blogcontainer {
+padding:5% 5%;
+}
+
+.heading{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subheading{
+  font-weight: 650;
+}
+.delete{
+  color:red;
+}
+.delete:before{
+  content: "delete";
+}
