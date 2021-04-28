@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <script
             dangerouslySetInnerHTML={{
               __html: `
-             
+            
               <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195779781-3"></script>
               <script>
                 window.dataLayer = window.dataLayer || [];
@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }) {
               
                 gtag('config', 'UA-195779781-3');
               </script>
+              
               
               `
             }}
